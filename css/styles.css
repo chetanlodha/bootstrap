@@ -5,6 +5,7 @@
     font-family: 'Jost', sans-serif;
 }
 .navbar{
+    background: linear-gradient(180deg, white, transparent);
     padding-left: 1em;
     padding-right: 1em;
     position: fixed;
@@ -12,9 +13,6 @@
     left: 0;
     right: 0;
     z-index: 100;
-}
-.header-container{
-    background: linear-gradient(180deg, white, transparent);
 }
 .navbar-brand{
     font-weight: 700;
@@ -85,15 +83,14 @@
     border-top-left-radius: 0.5em;
 }
 /* Small devices (mobiles, 576px and up) */
-@media (min-width: 576px) {  }
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 576px) { 
     .navbar-collapse{
         background-color: transparent;
         border-radius: 0px;
     }
-    
-}
+ }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  }
 /* Extra large devices (large desktops, 1200px and up) */

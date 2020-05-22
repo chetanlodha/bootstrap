@@ -34,7 +34,56 @@
 .nav-item{
     padding: 0 1em;
 }
-
+.card{
+    margin: 5em 0;
+    background-color: #b865358c;
+    padding: 2em;
+    padding-bottom: 0;
+    border-radius: 0.5em;
+    border-color: transparent;
+    overflow: hidden;
+}
+.bio{
+    padding: 0 2em;
+}
+.bio h1{
+    padding-top: 0.8em;
+}
+.bio p{
+    margin-top: 1em;
+}
+.resume-container{
+    text-align: center;
+}
+.resume-download-button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1.5em;
+    margin: auto;
+    color: black;
+    box-shadow: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    transform: scale(0.8);
+    transition: 0.5s ease border-radius, 0.5s ease background-color;
+}
+.resume-download-button:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 20px;
+}
+.profile-image-container{
+    text-align: center;
+}
+.profile-image-container img{
+    height: 360px;
+    width: 280px;
+    position: relative;
+    top: 30px;
+    box-shadow: #686868 0px 20px 10px;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
 /* Small devices (mobiles, 576px and up) */
 @media (min-width: 576px) {  }
 /* Medium devices (tablets, 768px and up) */
@@ -43,6 +92,7 @@
         background-color: transparent;
         border-radius: 0px;
     }
+    
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  }

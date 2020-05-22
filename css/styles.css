@@ -7,6 +7,13 @@
 .navbar{
     padding-left: 1em;
     padding-right: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header-container{
     background: linear-gradient(180deg, white, transparent);
 }
 .navbar-brand{
@@ -27,9 +34,7 @@
 .nav-item{
     padding: 0 1em;
 }
-.active{
-    color: red;
-}
+
 /* Small devices (mobiles, 576px and up) */
 @media (min-width: 576px) {  }
 /* Medium devices (tablets, 768px and up) */
